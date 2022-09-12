@@ -1,0 +1,67 @@
+.button {
+    background-color: rgb(255, 76, 80);
+    color: white;
+    padding: 0 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out 0s;
+    height: 42px;
+    min-width: 210px;
+    border-radius: 21px;
+    font-family: "HCo Gotham SSm", sans-serif;
+}
+
+.buttonBlack {
+    background-color: #343a40;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.background {
+    background-color: #f6f5ea;
+}
+
+.input {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 12px;
+    border-radius: 21px;
+    display: block;
+    box-shadow: none;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    font-size: 1rem;
+    font-family: "HCo Gotham SSm", sans-serif;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.inputResize {
+    min-width: 25rem;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.select {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 12px;
+    border-radius: 21px;
+    display: block;
+    box-shadow: none;
+    border: 1px solid #c8c8c8;
+    font-size: 1rem;
+    font-family: "HCo Gotham SSm",sans-serif;
+    font-weight: 500;
+    background-color: white;
+}
+
+.selectedButton {
+    border-color: #FFCC1D;
+    border-width: 4px;;
+}
